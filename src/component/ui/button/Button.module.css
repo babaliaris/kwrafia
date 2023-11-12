@@ -1,0 +1,21 @@
+.container
+{
+    padding: 0.5rem;
+    border-style: none;
+    border-radius: 0.2rem;
+    background-color: var(--kr-color-primary);
+}
+
+.container:hover
+{
+    opacity: 0.8;
+    box-shadow: 0 0 1rem var(--kr-color-primary);
+}
+
+.container:active
+{
+    outline-style: solid;
+    outline-color: var(--kr-color-secondary);
+    outline-width: 0.1rem;
+    color: var(--kr-color-secondary);
+}

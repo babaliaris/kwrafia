@@ -1,0 +1,36 @@
+.input
+{
+    padding: 0.5rem;
+    border-style: solid;
+    border-color: var(--kr-color-text);
+    border-width: 0.1rem;
+    border-radius: 0.2rem;
+}
+
+.input:hover
+{
+    border-color: var(--kr-color-primary);
+}
+
+.input:focus
+{
+    outline: none;
+    border-color: var(--kr-color-primary);
+    box-shadow: 0 0 1rem var(--kr-color-primary);
+}
+
+.input_error
+{
+    display: block;
+    color: var(--kr-color-error);
+}
+
+.input_border_error, .input_border_error:hover, .input_border_error:focus
+{
+    border-color: var(--kr-color-error);
+}
+
+.input_full_width
+{
+    width: 100%;
+}

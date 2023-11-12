@@ -1,0 +1,13 @@
+body
+{
+    --kr-color-primary: #a5b452ff;
+    --kr-color-secondary: #28587bff;
+    --kr-color-info: #7ebdc2ff;
+    --kr-color-warn: #fa9500ff;
+    --kr-color-error: rgb(233, 47, 14);
+    --kr-color-bg: rgb(255, 255, 255);
+    --kr-color-text: rgb(0,0,0);
+
+    background-color: var(--kr-color-bg);
+    color: var(--kr-color-text);
+}

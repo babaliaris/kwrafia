@@ -1,11 +1,13 @@
 
+//import styles from "./App.module.css";
+import TextInput from "src/component/ui/TextInput"
 
 function App() {
 
   return (
-    <>
-    <label>App Works!</label>
-    </>
+    <div>
+      <TextInput showError={true} fullWidth={false}/>
+    </div>
   )
 }
 

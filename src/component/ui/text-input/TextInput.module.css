@@ -1,3 +1,20 @@
+.container
+{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.icon
+{
+    margin-right: 0.4rem;
+}
+
+.icon_error
+{
+    color: var(--kr-color-error);
+}
+
 .input
 {
     padding: 0.5rem;
@@ -21,8 +38,12 @@
 
 .input_error
 {
-    display: block;
     color: var(--kr-color-error);
+}
+
+.input_error_margin
+{
+    margin-left: 2.4rem;
 }
 
 .input_border_error, .input_border_error:hover, .input_border_error:focus

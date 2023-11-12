@@ -1,7 +1,7 @@
 
 //import styles from "./App.module.css";
-import TextInput from "src/component/ui/text-input/TextInput"
-import Button from "src/component/ui/button/Button"
+import TextInput from "src/component/ui/text-input/TextInput";
+import Button from "src/component/ui/button/Button";
 
 function App() {
 
@@ -13,4 +13,4 @@ function App() {
   )
 }
 
-export default App
+export default App;

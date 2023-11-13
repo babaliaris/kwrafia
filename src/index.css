@@ -8,6 +8,8 @@ body
     --kr-color-bg: rgb(255, 255, 255);
     --kr-color-text: rgb(0,0,0);
 
+    --kr-length-top-menu-height: 4rem;
+
     background-color: var(--kr-color-bg);
     color: var(--kr-color-text);
 }

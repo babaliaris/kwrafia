@@ -15,11 +15,8 @@ function TopMenu()
             </div>
 
             <div className={styles.items}>
-                <label className={styles.item_button}>Item 1</label>
-                <label className={styles.item_button}>Item 2</label>
-                <label className={styles.item_button}>Item 3</label>
-                <label className={styles.item_button}>Item 4</label>
-                <label className={styles.item_button}>Item 5</label>
+                <label className={`${styles.item_button} ${fontawesomeIcons.production}`}/>
+                <label className={`${styles.item_button} ${fontawesomeIcons.field}`}/>
             </div>
 
         </div>

@@ -1,0 +1,38 @@
+.list_container
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.list_item
+{
+    display: flex;
+    align-items: center;
+    border-style: solid;
+    border-radius: 0.2rem;
+    border-width: 0.15rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 4rem;
+    transition: 0.4s padding;
+}
+
+.list_item:hover
+{
+    background-color: var(--kr-color-primary);
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+.item_icon
+{
+    flex:auto;
+    font-size: x-large;
+
+}
+
+.item_name
+{
+    flex:auto;
+    font-weight: bold;
+}
